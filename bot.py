@@ -5,7 +5,7 @@ from commands import info, agenda, jogadores, fan,handle_callback, responder_per
 
 load_dotenv()
 
-TOKEN = os.getenv("TOKEN"
+TOKEN = os.getenv("TOKEN")
 
 if __name__ == "__main__":
     app = ApplicationBuilder().token(TOKEN).build()
